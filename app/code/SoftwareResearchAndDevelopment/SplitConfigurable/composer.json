@@ -1,0 +1,24 @@
+{
+    "name": "software-research-and-development/module-split-configurable",
+    "description": "Software Research and Development - Split Configurable",
+    "type": "magento2-module",
+    "version": "1.0.0",
+    "require": {
+        "php": "~8.0.0|~8.1.0",
+        "magento/module-catalog": "104.0.*"
+    },
+    "authors": [
+        {
+            "name": "Milan Cvetković",
+            "email": "software.rnd.com@gmail.com"
+        }
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "SoftwareResearchAndDevelopment\\SplitConfigurable\\": ""
+        }
+    }
+}
