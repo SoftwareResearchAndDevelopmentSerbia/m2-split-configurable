@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * Copyright © Software Research and Development. All rights reserved.
+ * See LICENSE_SOFTWARE_RESEARCH_AND_DEVELOPMENT.txt for license details.
+ */
+-->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
+    <preference for="Magento\Catalog\Model\Product"
+                type="SoftwareResearchAndDevelopment\SplitConfigurable\Model\Catalog\Product" />
+</config>
